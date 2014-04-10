@@ -1,0 +1,30 @@
+
+{
+    "name": "Jean-Philip Thibault",
+    "tagline": "Front-End Dev",
+    "desc": "Travaille chez Frank & Oak depuis le jour 0. Aime beaucoup le vélo.",
+    "tagline-network": "Où je m'éparpille sur le web :",
+    "network": 
+        [
+            {"name": "Facebook", "url": "http://www.facebook.com/jpthibault"},
+            {"name": "Twitter", "url": "http://www.twitter.com/jpthibault"},
+            {"name": "Linkedin", "url": "http://www.linkedin.com/in/jpthibault"},
+            {"name": "Instagram", "url": "http://www.instagram.com/jpthibault"}
+        ],
+    "liens": 
+        [
+            {"name": "Facebook", "url": "http://www.facebook.com/jpthibault"},
+            {"name": "Twitter", "url": "http://www.twitter.com/jpthibault"},
+            {"name": "Linkedin", "url": "http://www.linkedin.com/in/jpthibault"},
+            {"name": "Instagram", "url": "http://www.instagram.com/jpthibault"}
+        ],
+    "tagline-amis": "Les gens (du web) qui ont une influence sur ma vie :",
+    "amis": 
+        [
+            {"name": "Phil Gauthier", "url": "http://www.philgauthier.net"},
+            {"name": "Oliver Chank", "url": "http://www.oliverchank.com"},
+            {"name": "Xavier Blais", "url": "http://www.xavierblais.com"},
+            {"name": "Raff Paquin", "url": "http://www.raff.ca"},
+            {"name": "Alex Leclair", "url": "http://www.zloche.net"}
+        ]
+}

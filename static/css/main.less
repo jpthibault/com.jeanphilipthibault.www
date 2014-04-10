@@ -1,0 +1,62 @@
+@couleurLien: #b23a1a;
+body {
+	font-family: 'Roboto Slab';
+	background-color: #f4f4f4;
+	
+	::selection {
+		background: @couleurLien; /* Firefox */
+		color: #fff;
+	}
+	::-moz-selection {
+		background: @couleurLien; /* Firefox */
+		color: #fff;
+	}
+
+	#content {
+		padding-top: 4em;
+	}
+
+	h1,h2,h3,h4,h5 {
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+
+	h1 {
+		font-size: 24px;
+		margin-bottom: 0; 
+	}
+	h2 {
+		margin: 0 0 2em;
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 14px;
+	}
+	p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	a {
+		color: @couleurLien;
+		&:hover {
+			color: darken(@couleurLien,10%)
+		}
+	}
+	li {
+	}
+	section footer {
+		//margin-top: 4em;
+		h4:first-child {
+			margin-top: 0;
+		}
+	}
+	.container {
+		width: auto;
+		max-width: 800px;
+		> footer {
+			margin-top: 4em;
+		}
+	}
+
+	
+}
